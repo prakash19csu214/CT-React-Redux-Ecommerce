@@ -16,17 +16,18 @@ export class Product extends Component {
         if(_products.length>0){
            
            return (
-                <div className="row" style={{marginTop:'10px'}}>
+                <div className="row" style={{marginTop:'10px', marginLeft: '150px'}}>
                     <div className="col-md-12">
                         <div className="row">
                             {
                                 _products.map((item,index)=>(
                                     <div key={index} className="row">
                                     <div className="col-12 col-md-4 my-5">
-        <div className="d-flex justify-content-center featured mr-5">
+        <div className="d-flex justify-content-center featured mr-5 ml-5">
           <img
             src={item.image}
             alt={item.title}
+            style={{"width": "150px"}}
             className="img-fluid list-img"
           />
         </div>
