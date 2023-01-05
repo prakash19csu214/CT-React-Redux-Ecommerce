@@ -16,7 +16,7 @@ export class Product extends Component {
         if(_products.length>0){
            
            return (
-                <div className="row" style={{marginTop:'10px', marginLeft: '150px'}}>
+                <div className="row" style={{marginTop:'50px', marginLeft: '150px'}}>
                     <div className="col-md-12">
                         <div className="row">
                             {
