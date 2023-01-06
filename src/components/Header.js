@@ -13,7 +13,7 @@ export class Header extends Component {
                   Products
                 </Link>
               </li>
-              <li className="nav-item mt-2" style={{marginLeft: "800px"}}>
+              <li className="nav-item mt-3 spc">
                 <Link to="/carts" className="btn btn-outline-success  nav-link">
                   <span className="cart-count">{this.props.numberCart}</span>
                   <span className="fa fa-lg fa-shopping-cart cart-btn" style={{"color": "var(--secondary-color)"}}></span>

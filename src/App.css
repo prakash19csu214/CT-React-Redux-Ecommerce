@@ -7,7 +7,30 @@
     width: 50px;
     margin-right: 50px;
   }
+
+  .spc{
+
+    margin-left: 100px;
+  }
+
+  @media only screen and (min-width: 800px)  {
+    .spc{
+      margin-left: 400px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px)  {
+    .spc{
+      margin-left: 650px;
+    }
+  }
   
+  @media only screen and (min-width: 1200px)  {
+    .spc{
+      margin-left: 850px;
+    }
+  }
+
   .cart-count{
     background-color: var(--primary-color);
     width: 15px;
