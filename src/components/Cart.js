@@ -16,8 +16,9 @@ function Cart({items,IncreaseQuantity,DecreaseQuantity,DeleteCart}){
     
     
     return(
-        <div className="row" style={{marginTop: "100px"}}>
-            <div className="col-md-12">
+        <div className="container">
+            <div className="row mt-4">
+            <div className='col-12'>
             <table className="table">
                 <thead>
                     <tr>
@@ -56,6 +57,7 @@ function Cart({items,IncreaseQuantity,DecreaseQuantity,DeleteCart}){
                 </tbody>
               
             </table>
+            </div>
             </div>
         </div>
     )

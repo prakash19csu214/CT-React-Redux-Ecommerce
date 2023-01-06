@@ -14,9 +14,8 @@ export class Product extends Component {
     const { _products } = this.props._products;
     if (_products.length > 0) {
       return (
-        <div className="row" style={{ marginTop: "50px", marginLeft: "150px" }}>
-          <div className="col-md-12">
-            <div className="row">
+        <div className="container">
+            <div className="row mt-2 ml-2 ml-md-5">
               {_products.map((item, index) => (
                 <div key={index} className="row">
                   <div className="col-12 col-md-4 my-5">
@@ -29,7 +28,7 @@ export class Product extends Component {
                       />
                     </div>
                   </div>
-                  <div className="col-11 col-md-5 mt-5 ml-2">
+                  <div className="col-11 col-md-5 mt-5 ml-md-5 ml-2">
                     <div className="row text-center featured-head my-2">
                       {item.title}
                     </div>
@@ -50,7 +49,6 @@ export class Product extends Component {
                 </div>
               ))}
             </div>
-          </div>
         </div>
       );
     }
